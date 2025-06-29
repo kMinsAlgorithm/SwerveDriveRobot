@@ -1,7 +1,9 @@
 # Swerve-Drive-Robot
 
 -A swerve drive is an advanced wheel configuration in which each wheel module can rotate independently and drive under its enabling omnidirectional movement, zero-radius turns, and exceptional maneuverability.
-![swerve_design](https://github.com/user-attachments/assets/c9ba42b5-cc77-4cf1-a0be-b62b1f55fde9)
+<img src="https://github.com/user-attachments/assets/c9ba42b5-cc77-4cf1-a0be-b62b1f55fde9" 
+     alt="swerve_design" 
+     style="display: block; margin: 0 auto; width: 60%; height: auto;">
 
 - In this project, we designed three custom swerve modules, each equipped with a motor for steering and another for propulsion.
 - The orientation of each drive module is measured using an angle sensor, and its steering motor is controlled by a PID controller to accurately achieve the target angle.
