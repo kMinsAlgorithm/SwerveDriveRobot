@@ -15,6 +15,7 @@
 - An Arduino Mega simultaneously computes the steering angles and wheel speeds to perform real-time odometry estimation.
 - It then publishes the odometry messages over the CAN bus in real time.
 - The entire system is operated under the ROS 2.
+![화면 기록 2025-06-29 오전 8 17 14](https://github.com/user-attachments/assets/b8b88825-e830-4a03-a043-545902d32b51)
 
 This work was carried out as part of my M.S.
                             research and was supported by a National
