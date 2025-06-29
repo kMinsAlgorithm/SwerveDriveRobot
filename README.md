@@ -33,5 +33,5 @@
 </div>
 
 
-  For a detailed explanation, please refer to the following link:
-  <a href="[your-link.html](https://kminsalgorithm.github.io/robot1.html)">Swerve Drive Documentation</a>
+For a detailed explanation, please refer to the following link:  
+[Swerve Drive Documentation](https://kminsalgorithm.github.io/robot1.html)
