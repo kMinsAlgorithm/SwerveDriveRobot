@@ -4,8 +4,8 @@
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/c9ba42b5-cc77-4cf1-a0be-b62b1f55fde9" 
-       alt="swerve_design"
+  <img src="https://github.com/user-attachments/assets/566b886d-32d5-46ef-b57a-b08568042302" 
+       alt="swerve_motion"
        style="width: 60%; height: auto;">
 </div>
 
@@ -15,21 +15,23 @@
 
 
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/60ec75e0-e73d-4e9e-88d1-152c88caf6da" 
-       alt="control_structure"
+  <img src="https://github.com/user-attachments/assets/c9ba42b5-cc77-4cf1-a0be-b62b1f55fde9" 
+       alt="swerve_design"
        style="width: 60%; height: auto;">
 </div>
+
 
 
 - An Arduino Mega simultaneously computes the steering angles and wheel speeds to perform real-time odometry estimation.
 - It then publishes the odometry messages over the CAN bus in real time.
 - The entire system is operated under the ROS 2.
 
+<div style="text-align: center;">
+  <img src="https://github.com/user-attachments/assets/60ec75e0-e73d-4e9e-88d1-152c88caf6da" 
+       alt="control_structure"
+       style="width: 60%; height: auto;">
+</div>
 
-This work was carried out as part of my M.S.
-                            research and was supported by a National
-                            Research
-                            Foundation of Korea (NRF) <strong>"Semantic
-                                Autonomous Driving Systems Utilizing Diffusion
-                                Models for Enhanced Dynamic Obstacle Avoidance
-                                Performance"</strong>.
+
+  For a detailed explanation, please refer to the following link:
+  <a href="[your-link.html](https://kminsalgorithm.github.io/robot1.html)">Swerve Drive Documentation</a>
