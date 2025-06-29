@@ -1,21 +1,19 @@
 # Swerve-Drive-Robot
 
-## 본 프로젝트는 ~
+-A swerve drive is an advanced wheel configuration in which each wheel module can rotate independently and drive under its enabling omnidirectional movement, zero-radius turns, and exceptional maneuverability.
 
+- In this project, we designed three custom swerve modules, each equipped with a motor for steering and another for propulsion.
 
+- The orientation of each drive module is measured using an angle sensor, and its steering motor is controlled by a PID controller to accurately achieve the target angle.
 
-### PART 1. ROBOT
-- 3 swerve drive based drving system 
-<img width="327" alt="image" src="https://github.com/kMinsAlgorithm/USAE_V2/assets/84526709/c8de5079-5657-43a4-a2fd-376e924a8433">
+- An Arduino Mega simultaneously computes the steering angles and wheel speeds to perform real-time odometry estimation.
+- It then publishes the odometry messages over the CAN bus in real time.
+- The entire system is operated under the ROS 2.
 
-
-=======
-# USAE_v2 실행 영상
-![real](https://github.com/kMinsAlgorithm/USAE_V2/assets/84526709/9b963415-794d-4ead-a8b3-ad93ac7fd020)
-
-# 결과
-- 시뮬레이션 과정에서 학습된 모델을 실제 환경에 적용해본결과 시뮬레이션 환경에 비해 좋은 성능을 내지 못했습니다.
-#해당 프로젝트는 현재 진행 완료되었지만, 정리중이며 곧 파일을 정리하여 업로드 예정중입니다.
-
-
-본 프로젝트는 https://github.com/reiniscimurs/DRL-robot-navigation?source=post_page-----d62715722303-------------------------------- 를 참고하였습니다.
+This work was carried out as part of my M.S.
+                            research and was supported by a National
+                            Research
+                            Foundation of Korea (NRF) <strong>"Semantic
+                                Autonomous Driving Systems Utilizing Diffusion
+                                Models for Enhanced Dynamic Obstacle Avoidance
+                                Performance"</strong>.
