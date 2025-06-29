@@ -6,7 +6,8 @@
 
 - The orientation of each drive module is measured using an angle sensor, and its steering motor is controlled by a PID controller to accurately achieve the target angle.
 
-![control_structure](https://github.com/user-attachments/assets/60ec75e0-e73d-4e9e-88d1-152c88caf6da)
+<img src="https://github.com/user-attachments/assets/60ec75e0-e73d-4e9e-88d1-152c88caf6da" alt="control_structure" style="width: 60%; height: auto;">
+
 
 - An Arduino Mega simultaneously computes the steering angles and wheel speeds to perform real-time odometry estimation.
 - It then publishes the odometry messages over the CAN bus in real time.
